@@ -659,6 +659,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 44px;
 }
 
 .sec7-label {
@@ -674,3 +675,53 @@ body {
     font-weight: 700;
     color: #0A093D;
 }
+.sec7-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.sec7-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec7-img { 
+    border-radius: 16px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.sec7-heading {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.sec7-line {
+    width: 22px;
+    height: 2px;
+    background-color: #FFAF2E;
+    margin-top: 10px;
+}
+
+.sec7-card-title {
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 600;
+    color: #0A093D;
+}
+
+.sec7-more {
+    padding-left: 34px;
+    font-size: 14px;
+    color: #656464;
+}
+
+.sec7-more-blue {
+    color: #217bf4;
+}
+/*---------------------------------------8-------------------------*/
