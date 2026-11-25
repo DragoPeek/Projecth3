@@ -425,3 +425,40 @@ body {
     line-height: 1.65;
     color: #656464;
 }
+.sec4-grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.sec4-card {
+    flex: 1 ;
+    min-width: 300px;
+    border-radius: 14px;
+    padding: 36px 32px;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    box-shadow: 0 18px 40px rgba(10, 9, 61, 0.04);
+}
+
+.sec4-icon {
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+}
+
+.sec4-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0A093D;
+    margin-bottom: 10px;
+}
+
+.sec4-card-text {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #656464;
+}
+/*--------------5------------------------------*/
