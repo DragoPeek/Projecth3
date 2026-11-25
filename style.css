@@ -260,7 +260,7 @@ body {
   height: 100%;
   display: block;
   border-radius: 14px;
-
+}
 
 .sec2-play {
   position: absolute;
@@ -274,5 +274,120 @@ body {
   align-items: center;
   justify-content: center;
 }
-/*-------------------------*/
+/*--------------3-----------*/
+.section3 {
+    width: 100%;
+    padding: 80px 0;
+}
+.sec3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1300px;
+}
+.sec3-left {
+    display: flex;
+    gap: 24px;
+    flex: 1.2;
+}
 
+.sec3-card {
+    flex: 1;
+    border: 1px solid #eef2f7;
+    border-radius: 14px;
+    padding: 28px 24px;
+}
+
+.sec3-cardac {
+    box-shadow: 0 20px 50px rgba(24, 39, 75, 0.08);
+}
+.sec3-cardtop, .sec3-card-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.sec3-cardtop img, .sec3-card-top img {
+    width: 40px;
+    height: 40px;
+}
+
+.sec3-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0a093d;
+}
+.sec3-mem, .sec3-members {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: #5b6270;
+}
+
+.sec3-mem img, .sec3-members img {
+    height: 28px;
+    width: auto;
+}
+
+.sec3-blue {
+    color: #217bf4;
+    font-weight: 600;
+}
+
+.sec3-card-text {
+    font-size: 14px;
+    line-height: 1.65;
+    color: #656464;
+    margin-bottom: 22px;
+}
+
+.sec3-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: #4a4f5c;
+    cursor: pointer;
+}
+
+.sec3-link-blue {
+    color: #217bf4;
+}
+
+.sec3-right {
+    flex: 0.9;
+    max-width: 420px;
+}
+
+.sec3-label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #217bf4;
+    margin-bottom: 12px;
+}
+
+.sec3-title {
+    font-size: 36px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #0a093d;
+    margin-bottom: 18px;
+}
+
+.sec3-desc {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #656464;
+    margin-bottom: 30px;
+}
+
+.sec3-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/*---------------4----------------------------*/
