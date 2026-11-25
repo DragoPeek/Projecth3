@@ -830,7 +830,6 @@ body {
 .footer-logo {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
     display: flex;
     align-items: center;
     gap: 5px;
@@ -876,13 +875,8 @@ body {
     justify-self: center;
     gap: 5px;
     font-size: 20px;
-    font-weight: bold;
     white-space: nowrap;
 }
-
-    .footer-zaegna {
-        grid-column: span 2;
-    }
     .soci img {
     width: 100%;
     height: 100%;
