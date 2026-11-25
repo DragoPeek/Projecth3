@@ -808,6 +808,7 @@ body {
     font-size: 10px;
 }
 
+
 .footer-bottom {
     background: #20202c;
     padding: 19px 0;
@@ -817,40 +818,49 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    min-height: 42px;
 }
 
 .halo {
-    font-size: 9px;
+    font-size: 11px;
     color: #d0d0d5;
 }
 
 .footer-logo {
-    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .soci {
     display: flex;
+    align-items: center;
     gap: 6px;
 }
 
 .soci div {
-    width: 23px;
-    height: 23px;
+    width: 30px;
+    height: 30px;
     background: white;
     color: #292936;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 12px;
+    overflow: hidden;
 }
-
-
-    .footer-top {
-        gap: 35px 20px;
-    }
-
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 45px 0 60px;
+}
     .footer-zaegna {
         max-width: 100%;
     }
@@ -861,11 +871,19 @@ body {
     }
 
     .footer-logo {
-        width: 100%;
-        text-align: center;
-    }
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+}
 
     .footer-zaegna {
         grid-column: span 2;
     }
-
+    .soci img {
+    width: 100%;
+    height: 100%;
+}
