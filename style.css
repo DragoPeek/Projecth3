@@ -578,3 +578,70 @@ body {
     color: #656464;
 }
 /*----------------------6-----------------------------*/
+.section6 {
+    width: 100%;
+    background: linear-gradient(135deg, #f8faff 0%, #eaf2ff 100%);
+    padding-top: 70px;
+    overflow: hidden;
+}
+
+.sec6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.sec6-left {
+    max-width: 440px;
+    padding-bottom: 70px;
+}
+
+.sec6-label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #217bf4;
+    margin-bottom: 12px;
+}
+
+.sec6-title {
+    font-size: 36px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #0A093D;
+    margin-bottom: 18px;
+}
+
+.sec6-desc {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #656464;
+    margin-bottom: 32px;
+}
+
+.sec6-stores {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.sec6-store-img {
+    height: 48px;
+    width: auto;
+    display: block;
+}
+.sec6-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.sec6-phone {
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/*-----------------7--------------------------*/
